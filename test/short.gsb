@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<Grisbi>
+	<Currency Nb="1" Na="Euro" Co="€" Ico="EUR" Fl="2" />
+	<Currency Nb="2" Na="United States Dollar" Co="$" Ico="USD" Fl="2" />
+	<Account
+		Name="Account n°1"
+		Id="id account 1"
+		Number="1"
+		Owner="(null)"
+		Kind="0"
+		Currency="1"
+		Path_icon=""
+		Bank="0"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="1"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="3"
+		Default_credit_method="2"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="1/2/3/4/5"
+		Ascending_sort="0"
+		Column_sort="0"
+		Sorting_kind_column="2-1-3-13-5-5-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="6-1-4-2-0-0-7-9-10-13-0-0-11-3-12-14-0-0-0-0-0-0-0-0"
+		Form_columns_width="26-25-15-32-0-0"
+		Bet_use_budget="0" />
+	<Account
+		Name="Account n°2"
+		Id="id account 2"
+		Number="2"
+		Owner="(null)"
+		Kind="0"
+		Currency="1"
+		Path_icon=""
+		Bank="-1"
+		Bank_branch_code="(null)"
+		Bank_account_number="(null)"
+		Key="(null)"
+		Bank_account_IBAN="(null)"
+		Initial_balance="0.00"
+		Minimum_wanted_balance="0.00"
+		Minimum_authorised_balance="0.00"
+		Closed_account="0"
+		Show_marked="1"
+		Show_archives_lines="0"
+		Lines_per_transaction="3"
+		Comment="(null)"
+		Owner_address="(null)"
+		Default_debit_method="8"
+		Default_credit_method="7"
+		Sort_by_method="0"
+		Neutrals_inside_method="0"
+		Sort_order="6/7/8/9/10"
+		Ascending_sort="0"
+		Column_sort="0"
+		Sorting_kind_column="2-1-3-13-5-6-0"
+		Form_columns_number="4"
+		Form_lines_number="3"
+		Form_organization="6-1-4-2-0-0-7-9-10-13-0-0-11-3-12-14-0-0-0-0-0-0-0-0"
+		Form_columns_width="26-25-15-32-0-0"
+		Bet_use_budget="0" />
+	<Transaction Ac="1" Nb="210" Id="(null)" Dt="01/18/2018" Dv="01/19/2018" Cu="1" Am="-13.17" Exb="0" Exr="0.00" Exf="0.00" Pa="189" Ca="18" Sca="24" Br="0" No="foo bar" Pn="3" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="23" Sbu="26" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="211" Id="(null)" Dt="01/14/2018" Dv="01/14/2018" Cu="1" Am="-14.90" Exb="0" Exr="0.00" Exf="0.00" Pa="163" Ca="18" Sca="25" Br="0" No="bar baz" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="15" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="212" Id="(null)" Dt="01/15/2018" Dv="01/15/2018" Cu="1" Am="-10.00" Exb="0" Exr="0.00" Exf="0.00" Pa="190" Ca="38" Sca="43" Br="0" No="auie uieaue" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="53" Sbu="54" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="272" Id="(null)" Dt="02/06/2018" Dv="02/06/2018" Cu="1" Am="-2.44" Exb="0" Exr="0.00" Exf="0.00" Pa="211" Ca="90" Sca="106" Br="0" No="Lorem ipsum" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="11" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="273" Id="(null)" Dt="02/01/2018" Dv="02/07/2018" Cu="1" Am="-295.00" Exb="0" Exr="0.00" Exf="0.00" Pa="164" Ca="0" Sca="0" Br="0" No="foo bar" Pn="0" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="36" Sbu="38" Vo="(null)" Ba="(null)" Trt="274" Mo="0" />
+	<Transaction Ac="1" Nb="274" Id="(null)" Dt="02/01/2018" Dv="02/07/2018" Cu="1" Am="295.00" Exb="0" Exr="0.00" Exf="0.00" Pa="164" Ca="0" Sca="0" Br="0" No="ae,auia" Pn="0" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="36" Sbu="38" Vo="(null)" Ba="(null)" Trt="273" Mo="0" />
+	<Transaction Ac="1" Nb="275" Id="(null)" Dt="02/01/2018" Dv="02/07/2018" Cu="1" Am="-59.00" Exb="0" Exr="0.00" Exf="0.00" Pa="213" Ca="8" Sca="14" Br="0" No="auieauie" Pn="43" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="3" Sbu="3" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="276" Id="(null)" Dt="03/01/2018" Dv="02/07/2018" Cu="1" Am="-59.00" Exb="0" Exr="0.00" Exf="0.00" Pa="213" Ca="8" Sca="14" Br="0" No="auie" Pn="43" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="3" Sbu="3" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="277" Id="(null)" Dt="05/01/2018" Dv="02/07/2018" Cu="1" Am="-59.00" Exb="0" Exr="0.00" Exf="0.00" Pa="213" Ca="8" Sca="14" Br="0" No="" Pn="43" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="3" Sbu="3" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="278" Id="(null)" Dt="04/01/2018" Dv="02/07/2018" Cu="1" Am="-59.00" Exb="0" Exr="0.00" Exf="0.00" Pa="213" Ca="8" Sca="14" Br="0" No="" Pn="43" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="3" Sbu="3" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="279" Id="(null)" Dt="06/01/2018" Dv="02/07/2018" Cu="1" Am="-59.00" Exb="0" Exr="0.00" Exf="0.00" Pa="213" Ca="8" Sca="14" Br="0" No="" Pn="43" Pc="(null)" Ma="0" Ar="0" Au="0" Re="0" Fi="0" Bu="3" Sbu="3" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="280" Id="(null)" Dt="02/06/2018" Dv="02/06/2018" Cu="1" Am="-59.20" Exb="0" Exr="0.801515151" Exf="0.00" Pa="215" Ca="45" Sca="56" Br="0" No="" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="17" Sbu="19" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="281" Id="(null)" Dt="01/20/2018" Dv="01/23/2018" Cu="1" Am="-578.16" Exb="0" Exr="0.00" Exf="0.00" Pa="216" Ca="18" Sca="22" Br="0" No="" Pn="3" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="23" Sbu="28" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="282" Id="(null)" Dt="01/22/2018" Dv="01/24/2018" Cu="1" Am="-5.00" Exb="0" Exr="0.00" Exf="0.00" Pa="156" Ca="72" Sca="90" Br="0" No="" Pn="3" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="1" Nb="283" Id="(null)" Dt="01/22/2018" Dv="01/24/2018" Cu="1" Am="-5.00" Exb="0" Exr="0.00" Exf="0.00" Pa="156" Ca="72" Sca="90" Br="0" No="" Pn="3" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="284" Id="(null)" Dt="02/07/2018" Dv="02/07/2018" Cu="1" Am="-41.93" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="0" Sca="0" Br="1" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="285" Id="(null)" Dt="02/08/2018" Dv="02/08/2018" Cu="1" Am="-1.00" Exb="0" Exr="0.00" Exf="0.00" Pa="164" Ca="62" Sca="78" Br="0" No="" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="57" Sbu="56" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="286" Id="(null)" Dt="02/07/2018" Dv="02/07/2018" Cu="1" Am="-18.41" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="92" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="284" />
+	<Transaction Ac="2" Nb="287" Id="(null)" Dt="02/07/2018" Dv="02/07/2018" Cu="1" Am="-3.24" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="85" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="284" />
+	<Transaction Ac="2" Nb="288" Id="(null)" Dt="02/07/2018" Dv="02/07/2018" Cu="1" Am="-2.19" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="91" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="284" />
+	<Transaction Ac="2" Nb="289" Id="(null)" Dt="02/07/2018" Dv="02/07/2018" Cu="1" Am="-4.86" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="86" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="284" />
+	<Transaction Ac="2" Nb="290" Id="(null)" Dt="02/07/2018" Dv="02/07/2018" Cu="1" Am="-10.56" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="90" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="284" />
+	<Transaction Ac="2" Nb="291" Id="(null)" Dt="02/07/2018" Dv="02/07/2018" Cu="1" Am="-1.38" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="95" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="284" />
+	<Transaction Ac="2" Nb="292" Id="(null)" Dt="02/07/2018" Dv="02/07/2018" Cu="1" Am="-1.29" Exb="0" Exr="0.801515151" Exf="0.00" Pa="208" Ca="72" Sca="99" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="284" />
+	<Transaction Ac="2" Nb="293" Id="(null)" Dt="02/12/2018" Dv="02/12/2018" Cu="2" Am="-73.63" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="0" Sca="0" Br="1" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="294" Id="(null)" Dt="02/12/2018" Dv="02/12/2018" Cu="2" Am="-36.00" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="97" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="17" Sbu="21" Vo="(null)" Ba="(null)" Trt="0" Mo="293" />
+	<Transaction Ac="2" Nb="295" Id="(null)" Dt="02/12/2018" Dv="02/12/2018" Cu="2" Am="-3.00" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="90" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="293" />
+	<Transaction Ac="2" Nb="296" Id="(null)" Dt="02/12/2018" Dv="02/12/2018" Cu="2" Am="-5.50" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="94" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="293" />
+	<Transaction Ac="2" Nb="297" Id="(null)" Dt="02/12/2018" Dv="02/12/2018" Cu="2" Am="-18.02" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="92" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="293" />
+	<Transaction Ac="2" Nb="298" Id="(null)" Dt="02/12/2018" Dv="02/12/2018" Cu="2" Am="-4.00" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="95" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="293" />
+	<Transaction Ac="2" Nb="299" Id="(null)" Dt="02/12/2018" Dv="02/12/2018" Cu="2" Am="-7.11" Exb="0" Exr="0.00" Exf="0.00" Pa="208" Ca="72" Sca="99" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="293" />
+	<Transaction Ac="2" Nb="303" Id="(null)" Dt="02/13/2018" Dv="02/13/2018" Cu="2" Am="-13.19" Exb="0" Exr="0.815291446" Exf="0.00" Pa="208" Ca="0" Sca="0" Br="1" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Transaction Ac="2" Nb="304" Id="(null)" Dt="02/13/2018" Dv="02/13/2018" Cu="2" Am="-6.54" Exb="0" Exr="0.815291446" Exf="0.00" Pa="208" Ca="72" Sca="97" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="303" />
+	<Transaction Ac="2" Nb="305" Id="(null)" Dt="02/13/2018" Dv="02/13/2018" Cu="2" Am="-6.65" Exb="0" Exr="0.815291446" Exf="0.00" Pa="208" Ca="72" Sca="85" Br="0" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="11" Sbu="10" Vo="(null)" Ba="(null)" Trt="0" Mo="303" />
+	<Transaction Ac="2" Nb="306" Id="(null)" Dt="02/12/2018" Dv="02/12/2018" Cu="2" Am="-73.63" Exb="0" Exr="0.817194079" Exf="0.00" Pa="208" Ca="0" Sca="0" Br="1" No="(null)" Pn="8" Pc="(null)" Ma="1" Ar="0" Au="0" Re="0" Fi="0" Bu="0" Sbu="0" Vo="(null)" Ba="(null)" Trt="0" Mo="0" />
+	<Party Nb="1" Na="Payee n°1" Txt="(null)" Search="(null)" />
+	<Party Nb="5" Na="Payee n°5" Txt="(null)" Search="(null)" />
+	<Party Nb="6" Na="Payee n°6" Txt="(null)" Search="(null)" />
+	<Party Nb="7" Na="Payee n°7" Txt="(null)" Search="(null)" />
+	<Party Nb="8" Na="Payee n°8" Txt="(null)" Search="(null)" />
+	<Party Nb="9" Na="Payee n°9" Txt="(null)" Search="(null)" />
+	<Party Nb="10" Na="Payee n°10" Txt="(null)" Search="(null)" />
+	<Party Nb="11" Na="Payee n°11" Txt="(null)" Search="(null)" />
+	<Party Nb="12" Na="Payee n°12" Txt="(null)" Search="(null)" />
+	<Party Nb="13" Na="Payee n°13" Txt="(null)" Search="(null)" />
+	<Party Nb="14" Na="Payee n°14" Txt="(null)" Search="(null)" />
+	<Party Nb="15" Na="Payee n°15" Txt="(null)" Search="(null)" />
+	<Party Nb="16" Na="Payee n°16" Txt="(null)" Search="(null)" />
+	<Party Nb="17" Na="Payee n°17" Txt="(null)" Search="(null)" />
+	<Category Nb="2" Na="Category n°2" Kd="1" />
+	<Sub_category Nbc="2" Nb="2" Na="Sub-category n°2" />
+	<Sub_category Nbc="2" Nb="3" Na="Sub-category n°3" />
+	<Sub_category Nbc="2" Nb="4" Na="Sub-category n°4" />
+	<Sub_category Nbc="2" Nb="5" Na="Sub-category n°5" />
+	<Sub_category Nbc="2" Nb="7" Na="Sub-category n°7" />
+	<Sub_category Nbc="2" Nb="8" Na="Sub-category n°8" />
+	<Category Nb="8" Na="Category n°8" Kd="1" />
+	<Sub_category Nbc="8" Nb="10" Na="Sub-category n°10" />
+	<Sub_category Nbc="8" Nb="11" Na="Sub-category n°11" />
+	<Sub_category Nbc="8" Nb="12" Na="Sub-category n°12" />
+	<Sub_category Nbc="8" Nb="13" Na="Sub-category n°13" />
+	<Sub_category Nbc="8" Nb="14" Na="Sub-category n°14" />
+	<Sub_category Nbc="8" Nb="15" Na="Sub-category n°15" />
+	<Sub_category Nbc="8" Nb="16" Na="Sub-category n°16" />
+	<Sub_category Nbc="8" Nb="17" Na="Sub-category n°17" />
+	<Sub_category Nbc="8" Nb="18" Na="Sub-category n°18" />
+	<Category Nb="18" Na="Category n°18" Kd="1" />
+	<Sub_category Nbc="18" Nb="21" Na="Sub-category n°21" />
+	<Sub_category Nbc="18" Nb="22" Na="Sub-category n°22" />
+	<Sub_category Nbc="18" Nb="23" Na="Sub-category n°23" />
+	<Sub_category Nbc="18" Nb="24" Na="Sub-category n°24" />
+	<Sub_category Nbc="18" Nb="25" Na="Sub-category n°25" />
+	<Sub_category Nbc="18" Nb="26" Na="Sub-category n°26" />
+	<Sub_category Nbc="18" Nb="27" Na="Sub-category n°27" />
+	<Sub_category Nbc="18" Nb="28" Na="Sub-category n°28" />
+	<Sub_category Nbc="18" Nb="29" Na="Sub-category n°29" />
+	<Sub_category Nbc="18" Nb="30" Na="Sub-category n°30" />
+	<Sub_category Nbc="18" Nb="31" Na="Sub-category n°31" />
+	<Sub_category Nbc="18" Nb="32" Na="Sub-category n°32" />
+	<Sub_category Nbc="18" Nb="33" Na="Sub-category n°33" />
+	<Sub_category Nbc="18" Nb="34" Na="Sub-category n°34" />
+	<Sub_category Nbc="18" Nb="35" Na="Sub-category n°35" />
+	<Category Nb="32" Na="Category n°32" Kd="1" />
+	<Sub_category Nbc="32" Nb="36" Na="Sub-category n°36" />
+	<Sub_category Nbc="32" Nb="37" Na="Sub-category n°37" />
+	<Sub_category Nbc="32" Nb="38" Na="Sub-category n°38" />
+	<Sub_category Nbc="32" Nb="39" Na="Sub-category n°39" />
+	<Sub_category Nbc="32" Nb="40" Na="Sub-category n°40" />
+	<Category Nb="38" Na="Category n°38" Kd="1" />
+	<Sub_category Nbc="38" Nb="43" Na="Sub-category n°43" />
+	<Sub_category Nbc="38" Nb="44" Na="Sub-category n°44" />
+	<Sub_category Nbc="38" Nb="45" Na="Sub-category n°45" />
+	<Category Nb="41" Na="Category n°41" Kd="1" />
+	<Sub_category Nbc="41" Nb="47" Na="Sub-category n°47" />
+	<Sub_category Nbc="41" Nb="48" Na="Sub-category n°48" />
+	<Sub_category Nbc="41" Nb="49" Na="Sub-category n°49" />
+	<Category Nb="45" Na="Category n°45" Kd="1" />
+	<Sub_category Nbc="45" Nb="52" Na="Sub-category n°52" />
+	<Sub_category Nbc="45" Nb="53" Na="Sub-category n°53" />
+	<Sub_category Nbc="45" Nb="54" Na="Sub-category n°54" />
+	<Sub_category Nbc="45" Nb="55" Na="Sub-category n°55" />
+	<Sub_category Nbc="45" Nb="56" Na="Sub-category n°56" />
+	<Sub_category Nbc="45" Nb="57" Na="Sub-category n°57" />
+	<Sub_category Nbc="45" Nb="58" Na="Sub-category n°58" />
+	<Sub_category Nbc="45" Nb="59" Na="Sub-category n°59" />
+	<Sub_category Nbc="45" Nb="60" Na="Sub-category n°60" />
+	<Sub_category Nbc="45" Nb="61" Na="Sub-category n°61" />
+	<Sub_category Nbc="45" Nb="62" Na="Sub-category n°62" />
+	<Category Nb="56" Na="Category n°56" Kd="1" />
+	<Sub_category Nbc="56" Nb="64" Na="Sub-category n°64" />
+	<Sub_category Nbc="56" Nb="65" Na="Sub-category n°65" />
+	<Sub_category Nbc="56" Nb="66" Na="Sub-category n°66" />
+	<Sub_category Nbc="56" Nb="67" Na="Sub-category n°67" />
+	<Sub_category Nbc="56" Nb="68" Na="Sub-category n°68" />
+	<Sub_category Nbc="56" Nb="69" Na="Sub-category n°69" />
+	<Category Nb="62" Na="Category n°62" Kd="1" />
+	<Sub_category Nbc="62" Nb="72" Na="Sub-category n°72" />
+	<Sub_category Nbc="62" Nb="73" Na="Sub-category n°73" />
+	<Sub_category Nbc="62" Nb="74" Na="Sub-category n°74" />
+	<Sub_category Nbc="62" Nb="75" Na="Sub-category n°75" />
+	<Sub_category Nbc="62" Nb="76" Na="Sub-category n°76" />
+	<Sub_category Nbc="62" Nb="77" Na="Sub-category n°77" />
+	<Sub_category Nbc="62" Nb="78" Na="Sub-category n°78" />
+	<Category Nb="69" Na="Category n°69" Kd="1" />
+	<Sub_category Nbc="69" Nb="80" Na="Sub-category n°80" />
+	<Sub_category Nbc="69" Nb="81" Na="Sub-category n°81" />
+	<Sub_category Nbc="69" Nb="82" Na="Sub-category n°82" />
+	<Category Nb="72" Na="Category n°72" Kd="1" />
+	<Sub_category Nbc="72" Nb="84" Na="Sub-category n°84" />
+	<Sub_category Nbc="72" Nb="85" Na="Sub-category n°85" />
+	<Sub_category Nbc="72" Nb="86" Na="Sub-category n°86" />
+	<Sub_category Nbc="72" Nb="87" Na="Sub-category n°87" />
+	<Sub_category Nbc="72" Nb="88" Na="Sub-category n°88" />
+	<Sub_category Nbc="72" Nb="89" Na="Sub-category n°89" />
+	<Sub_category Nbc="72" Nb="90" Na="Sub-category n°90" />
+	<Sub_category Nbc="72" Nb="91" Na="Sub-category n°91" />
+	<Sub_category Nbc="72" Nb="92" Na="Sub-category n°92" />
+	<Sub_category Nbc="72" Nb="93" Na="Sub-category n°93" />
+	<Sub_category Nbc="72" Nb="94" Na="Sub-category n°94" />
+	<Sub_category Nbc="72" Nb="95" Na="Sub-category n°95" />
+	<Sub_category Nbc="72" Nb="96" Na="Sub-category n°96" />
+	<Sub_category Nbc="72" Nb="97" Na="Sub-category n°97" />
+	<Sub_category Nbc="72" Nb="98" Na="Sub-category n°98" />
+	<Sub_category Nbc="72" Nb="99" Na="Sub-category n°99" />
+	<Sub_category Nbc="72" Nb="100" Na="Sub-category n°100" />
+	<Sub_category Nbc="72" Nb="101" Na="Sub-category n°101" />
+	<Category Nb="87" Na="Category n°87" Kd="1" />
+	<Sub_category Nbc="87" Nb="100" Na="Sub-category n°100" />
+	<Sub_category Nbc="87" Nb="101" Na="Sub-category n°101" />
+	<Category Nb="90" Na="Category n°90" Kd="1" />
+	<Sub_category Nbc="90" Nb="104" Na="Sub-category n°104" />
+	<Sub_category Nbc="90" Nb="105" Na="Sub-category n°105" />
+	<Sub_category Nbc="90" Nb="106" Na="Sub-category n°106" />
+	<Sub_category Nbc="90" Nb="107" Na="Sub-category n°107" />
+	<Category Nb="95" Na="Category n°95" Kd="1" />
+	<Sub_category Nbc="95" Nb="110" Na="Sub-category n°110" />
+	<Sub_category Nbc="95" Nb="111" Na="Sub-category n°111" />
+	<Sub_category Nbc="95" Nb="112" Na="Sub-category n°112" />
+	<Sub_category Nbc="95" Nb="113" Na="Sub-category n°113" />
+	<Sub_category Nbc="95" Nb="114" Na="Sub-category n°114" />
+	<Category Nb="100" Na="Category n°100" Kd="1" />
+	<Sub_category Nbc="100" Nb="116" Na="Sub-category n°116" />
+	<Sub_category Nbc="100" Nb="117" Na="Sub-category n°117" />
+	<Category Nb="103" Na="Category n°103" Kd="1" />
+	<Sub_category Nbc="103" Nb="119" Na="Sub-category n°119" />
+	<Sub_category Nbc="103" Nb="120" Na="Sub-category n°120" />
+	<Sub_category Nbc="103" Nb="121" Na="Sub-category n°121" />
+	<Sub_category Nbc="103" Nb="122" Na="Sub-category n°122" />
+	<Category Nb="107" Na="Category n°107" Kd="1" />
+	<Sub_category Nbc="107" Nb="123" Na="Sub-category n°123" />
+	<Sub_category Nbc="107" Nb="124" Na="Sub-category n°124" />
+	<Sub_category Nbc="107" Nb="125" Na="Sub-category n°125" />
+	<Sub_category Nbc="107" Nb="126" Na="Sub-category n°126" />
+	<Sub_category Nbc="107" Nb="127" Na="Sub-category n°127" />
+	<Sub_category Nbc="107" Nb="128" Na="Sub-category n°128" />
+	<Sub_category Nbc="107" Nb="129" Na="Sub-category n°129" />
+	<Sub_category Nbc="107" Nb="130" Na="Sub-category n°130" />
+	<Sub_category Nbc="107" Nb="131" Na="Sub-category n°131" />
+	<Category Nb="116" Na="Category n°116" Kd="1" />
+	<Sub_category Nbc="116" Nb="132" Na="Sub-category n°132" />
+	<Sub_category Nbc="116" Nb="133" Na="Sub-category n°133" />
+	<Sub_category Nbc="116" Nb="134" Na="Sub-category n°134" />
+	<Sub_category Nbc="116" Nb="135" Na="Sub-category n°135" />
+	<Sub_category Nbc="116" Nb="136" Na="Sub-category n°136" />
+	<Category Nb="123" Na="Category n°123" Kd="1" />
+	<Sub_category Nbc="123" Nb="139" Na="Sub-category n°139" />
+	<Sub_category Nbc="123" Nb="140" Na="Sub-category n°140" />
+	<Category Nb="125" Na="Category n°125" Kd="1" />
+	<Sub_category Nbc="125" Nb="1" Na="Sub-category n°1" />
+	<Sub_category Nbc="125" Nb="2" Na="Sub-category n°2" />
+	<Sub_category Nbc="125" Nb="3" Na="Sub-category n°3" />
+	<Budgetary Nb="3" Na="Budget n°3" Kd="1" />
+	<Sub_budgetary Nbb="3" Nb="2" Na="Sub-budget n°2" />
+	<Sub_budgetary Nbb="3" Nb="3" Na="Sub-budget n°3" />
+	<Sub_budgetary Nbb="3" Nb="4" Na="Sub-budget n°4" />
+	<Sub_budgetary Nbb="3" Nb="5" Na="Sub-budget n°5" />
+	<Sub_budgetary Nbb="3" Nb="6" Na="Sub-budget n°6" />
+	<Sub_budgetary Nbb="3" Nb="7" Na="Sub-budget n°7" />
+	<Sub_budgetary Nbb="3" Nb="8" Na="Sub-budget n°8" />
+	<Budgetary Nb="11" Na="Budget n°11" Kd="1" />
+	<Sub_budgetary Nbb="11" Nb="10" Na="Sub-budget n°10" />
+	<Sub_budgetary Nbb="11" Nb="11" Na="Sub-budget n°11" />
+	<Sub_budgetary Nbb="11" Nb="12" Na="Sub-budget n°12" />
+	<Sub_budgetary Nbb="11" Nb="13" Na="Sub-budget n°13" />
+	<Sub_budgetary Nbb="11" Nb="14" Na="Sub-budget n°14" />
+	<Sub_budgetary Nbb="11" Nb="15" Na="Sub-budget n°15" />
+	<Budgetary Nb="17" Na="Budget n°17" Kd="1" />
+	<Sub_budgetary Nbb="17" Nb="16" Na="Sub-budget n°16" />
+	<Sub_budgetary Nbb="17" Nb="17" Na="Sub-budget n°17" />
+	<Sub_budgetary Nbb="17" Nb="18" Na="Sub-budget n°18" />
+	<Sub_budgetary Nbb="17" Nb="19" Na="Sub-budget n°19" />
+	<Sub_budgetary Nbb="17" Nb="20" Na="Sub-budget n°20" />
+	<Sub_budgetary Nbb="17" Nb="21" Na="Sub-budget n°21" />
+	<Sub_budgetary Nbb="17" Nb="22" Na="Sub-budget n°22" />
+	<Budgetary Nb="23" Na="Budget n°23" Kd="1" />
+	<Sub_budgetary Nbb="23" Nb="22" Na="Sub-budget n°22" />
+	<Sub_budgetary Nbb="23" Nb="23" Na="Sub-budget n°23" />
+	<Sub_budgetary Nbb="23" Nb="24" Na="Sub-budget n°24" />
+	<Sub_budgetary Nbb="23" Nb="25" Na="Sub-budget n°25" />
+	<Sub_budgetary Nbb="23" Nb="26" Na="Sub-budget n°26" />
+	<Sub_budgetary Nbb="23" Nb="27" Na="Sub-budget n°27" />
+	<Sub_budgetary Nbb="23" Nb="28" Na="Sub-budget n°28" />
+	<Sub_budgetary Nbb="23" Nb="29" Na="Sub-budget n°29" />
+	<Budgetary Nb="29" Na="Budget n°29" Kd="1" />
+	<Sub_budgetary Nbb="29" Nb="28" Na="Sub-budget n°28" />
+	<Sub_budgetary Nbb="29" Nb="29" Na="Sub-budget n°29" />
+	<Sub_budgetary Nbb="29" Nb="30" Na="Sub-budget n°30" />
+	<Sub_budgetary Nbb="29" Nb="31" Na="Sub-budget n°31" />
+	<Sub_budgetary Nbb="29" Nb="32" Na="Sub-budget n°32" />
+	<Budgetary Nb="36" Na="Budget n°36" Kd="1" />
+	<Sub_budgetary Nbb="36" Nb="34" Na="Sub-budget n°34" />
+	<Sub_budgetary Nbb="36" Nb="35" Na="Sub-budget n°35" />
+	<Sub_budgetary Nbb="36" Nb="36" Na="Sub-budget n°36" />
+	<Sub_budgetary Nbb="36" Nb="38" Na="Sub-budget n°38" />
+	<Sub_budgetary Nbb="36" Nb="37" Na="Sub-budget n°37" />
+	<Sub_budgetary Nbb="36" Nb="39" Na="Sub-budget n°39" />
+	<Sub_budgetary Nbb="36" Nb="40" Na="Sub-budget n°40" />
+	<Sub_budgetary Nbb="36" Nb="41" Na="Sub-budget n°41" />
+	<Sub_budgetary Nbb="36" Nb="42" Na="Sub-budget n°42" />
+	<Budgetary Nb="40" Na="Budget n°40" Kd="1" />
+	<Sub_budgetary Nbb="40" Nb="39" Na="Sub-budget n°39" />
+	<Sub_budgetary Nbb="40" Nb="40" Na="Sub-budget n°40" />
+	<Sub_budgetary Nbb="40" Nb="41" Na="Sub-budget n°41" />
+	<Sub_budgetary Nbb="40" Nb="42" Na="Sub-budget n°42" />
+	<Sub_budgetary Nbb="40" Nb="43" Na="Sub-budget n°43" />
+	<Sub_budgetary Nbb="40" Nb="44" Na="Sub-budget n°44" />
+	<Budgetary Nb="47" Na="Budget n°47" Kd="1" />
+	<Sub_budgetary Nbb="47" Nb="46" Na="Sub-budget n°46" />
+	<Sub_budgetary Nbb="47" Nb="47" Na="Sub-budget n°47" />
+	<Budgetary Nb="50" Na="Budget n°50" Kd="1" />
+	<Sub_budgetary Nbb="50" Nb="49" Na="Sub-budget n°49" />
+	<Sub_budgetary Nbb="50" Nb="50" Na="Sub-budget n°50" />
+	<Budgetary Nb="53" Na="Budget n°53" Kd="1" />
+	<Sub_budgetary Nbb="53" Nb="52" Na="Sub-budget n°52" />
+	<Sub_budgetary Nbb="53" Nb="53" Na="Sub-budget n°53" />
+	<Sub_budgetary Nbb="53" Nb="54" Na="Sub-budget n°54" />
+	<Budgetary Nb="57" Na="Budget n°57" Kd="1" />
+	<Sub_budgetary Nbb="57" Nb="56" Na="Sub-budget n°56" />
+	<Sub_budgetary Nbb="57" Nb="57" Na="Sub-budget n°57" />
+	<Sub_budgetary Nbb="57" Nb="58" Na="Sub-budget n°58" />
+	<Sub_budgetary Nbb="57" Nb="59" Na="Sub-budget n°59" />
+	<Sub_budgetary Nbb="57" Nb="60" Na="Sub-budget n°60" />
+	<Sub_budgetary Nbb="57" Nb="61" Na="Sub-budget n°61" />
+	<Sub_budgetary Nbb="57" Nb="62" Na="Sub-budget n°62" />
+	<Budgetary Nb="64" Na="Budget n°64" Kd="1" />
+	<Sub_budgetary Nbb="64" Nb="63" Na="Sub-budget n°63" />
+	<Sub_budgetary Nbb="64" Nb="64" Na="Sub-budget n°64" />
+	<Budgetary Nb="65" Na="Budget n°65" Kd="0" />
+	<Sub_budgetary Nbb="65" Nb="1" Na="Sub-budget n°1" />
+	<Currency_link Nb="1" Cu1="2" Cu2="1" Ex="0.812837997" Modified_date="01/04/2018" Fl="0" />
+</Grisbi>
